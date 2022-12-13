@@ -18,5 +18,6 @@ Along with Transformers, I have also applied these algorithms: <br>
   
 <p><b>LSA(Latent Semantic Analysis) Summarizer:</b> This brand-new algorithm combines term frequency with singular value decomposition. In python, this algorithm works as follows: — Convert a document into a vectorized bag of words using CountVectorizer library — Encode the original data into topic encoded data — Fit and transform single value decomposition on the bag of words using TruncatedSVD library — Determine the strength of each part of the sentence effectively — Extract out the final sentences from topics</p></br>
 
+<p> At the End, I have tried to Ensemble Transformers and Lexrank Model and that worked fine </p><br>
 
 Thank You
